@@ -1,0 +1,38 @@
+.info__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
+
+}
+.success__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 119px;
+
+}
+.success__subtitle{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+.part__number{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 248px;
+    margin-top: 62px;
+}
+.reg__thanks{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 400px;
+}

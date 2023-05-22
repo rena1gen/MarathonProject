@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{{ url_for('static', filename='style.css')}}" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@200;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@200;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__content__container">
+
+            <div class="header__container__title">
+                     марафон
+            </div>
+
+            <div class="header__container__subtitle">
+                    брось вызов самому себе
+            </div>
+
+            <div class="header__container__button">
+                    <a href="/reg" class = "btn-text">зарегистрироваться</a>
+            </div>
+
+            </div>
+
+    </header>
+    <div class = "marathon__info">
+            <div class="marathon__info__container">
+                <div class="marathon__info__text">
+                    Участие в марафоне – это не только возможность
+                    побить свой<br> личный рекорд, но и отличный способ
+                    проверить свои силы и<br> узнать, на что ты способен.
+                    К тому же, это прекрасный способ<br> провести время
+                    с единомышленниками и почувствовать<br> поддержку со
+                    стороны других участников.
+                </div>
+            </div>
+    </div>
+    <div class="map__section">
+        <div class="map__container">
+            <div class="map__container__info">
+                <div class = "map__container__info__title">
+                    карта
+                </div>
+                <div class="map__container__info__subtitle">
+                    марафона
+                </div>
+            </div>
+            <div class="maps">
+                <div class="map-1">
+                    <img src="{{ url_for("static", filename="map21.jpg") }}" alt="ops image">
+                </div>
+                <div class="map-2">
+                     <img src="{{ url_for("static", filename="map42.jpg") }}" alt="ops image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="marathon__info__section">
+        <div class="marathon__info__section__content">
+            <div class="marathon__info__ts">
+                <div class="marathon__info__title">
+                    информация
+                </div>
+                <div class="marathon__info__subtitle">
+                    о забеге
+                </div>
+            </div>
+            <div class="marathon__reg__info">
+                <div class="marathon__reg__info__title">
+                    регистрация
+                </div>
+                <div class="marathon__reg__info__subtitle">
+                    Онлайн-регистрация на Казанский марафон продлится до 23:59 «14»<p> мая 2023. По достижении лимита слотов,
+                    регистрация будет<br>
+                     завершена раньше. Дополнительная регистрация на Экспо «26» мая<p> 2023 года и «27» мая 2023 года будет возможна при наличии<p>
+                      свободных слотов.<br>
+                      <div class="empty__section">
+
+                      </div>
+                    Перенос регистрации на другое соревнование невозможен. Стоимость<p> перерегистрации на другое лицо – 500 рублей.
+                </div>
+            </div>
+            <div class="age__restriction__info">
+                <div class="age__restriction__info__title">
+                    возрастные ограничения
+                </div>
+                <div class="age__restriction__info__subtitle">
+                    огрничения для дистанций 42,2 км  - 18 лет и старше<br>
+                    огрничения для дистанций 21,1 км  - 18 лет и старше
+                </div>
+            </div>
+            <div class="med__req__info">
+                <div class="med__req__info__title">
+                    медицинские требования
+                </div>
+                <div class="med__req__info__subtitle">
+                    <ul>
+                        <li>Для допуска к участию необходима медицинская справка, которая:</li>
+                        <li> должна содержать печать выдавшего её учреждения, подпись и печать<br> врача;</li>
+                        <li>в справке должно быть указано, что участник допущен к соревнованиям по бегу (лёгкой атлетике) на выбранную им дистанцию (или большую<br> дистанцию)</li>
+                        <li>справка должна быть оформлена не ранее «28» ноября 2022 г. Справка действительна в течение шести месяцев со дня выдачи, если в ней не указано иное;</li>
+                        <li>ксерокопия справки принимается комиссией только при предъявлении оригинала. Справки не возвращаются!</li>
+                    </ul>
+                    <!-- Для допуска к участию необходима медицинская справка, которая:<br>
+                    должна содержать печать выдавшего её учреждения, подпись и печать врача;<br>
+                    в справке должно быть указано, что участник допущен к соревнованиям по бегу (лёгкой атлетике) на выбранную им дистанцию (или большую дистанцию).<br>
+                    справка должна быть оформлена не ранее «28» ноября 2022 г. Справка действительна в течение шести месяцев со дня выдачи, если в ней не указано иное;<br>
+                    ксерокопия справки принимается комиссией только при предъявлении оригинала. Справки не возвращаются! -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

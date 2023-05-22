@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reg__header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
+}
+.reg__title{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 50px;
+}
+.reg__subtitle{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+.choose__section__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.choose__section__title{
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.choose__km__section{
+    display: flex;
+    justify-content: space-around;
+    width: 1064px;
+    margin-top: 64px;
+}
+.km{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    background: #D9D9D9;
+    border-radius: 34.5px;
+    padding: 18px 38px;
+
+}
+input[type="radio"]{
+    zoom:3;
+}
+
+/* .peronal__data__inputs{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+} */
+.personal__data__section{
+    margin-top: 74px;
+}
+.personal__data__section__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7)
+}
+.personal__data__flex__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 74px;
+}
+input{
+    font-size: 25px;
+    padding: 18px 40px;
+    text-align: center;
+    border-radius: 34.5px;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.personal__data__inputs{
+    width: 542px;
+    height: 750px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+}
+.data__inputs__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 40px;
+}
+.inp{
+    margin-top: 50px;
+}
+/*.input__button{*/
+/*    font-family: 'Unbounded';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 26px;*/
+/*    line-height: 32px;*/
+/*    margin-top: 100px;*/
+/*    color: #ffffff;*/
+/*    border-radius: 34.5px;*/
+/*    width: 426px;*/
+/*    height: 69px;*/
+/*    padding: 19px 74px;*/
+
+/*}*/
+.input__button input{
+    margin-top: 40px;
+    background: #000000;
+    color: #ffffff;
+}

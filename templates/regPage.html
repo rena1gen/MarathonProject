@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{{ url_for('static', filename='regStyle.css')}}" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@200;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@200;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="reg__header">
+        <div class="reg__header__container">
+            <div class="reg__title">
+                регистрация
+            </div>
+            <div class="reg__subtitle">
+                на марафон
+            </div>
+        </div>
+    </div>
+    <div class="choose__section">
+        <div class="choose__section__container">
+            <div class = "choose__km__section">
+{#            <div class="km">#}
+{#                <form method="post">#}
+{#                <input type="radio" name="distance">42,2 километра#}
+{#            </div>#}
+{#            <div class="km">#}
+{#                <input type="radio" name="distance">21,1 километр#}
+{#            </div>#}
+            </div>
+        </div>
+    </div>
+    <div class="personal__data__section">
+        <div class="personal__data__section__container">
+            <div class="personal__data__section__title">
+                личные данные
+            </div>
+            <div class="personal__data__flex__container">
+                <div class="personal__data__inputs">
+                    <div class = "data__inputs__title">
+                        форма регистрации
+                    </div>
+                    <form method="post">
+                    <div class = "inp">
+                    <input type="text" name="name" placeholder="Введите имя" required>
+                    </div>
+                    <div class = "inp">
+                    <input type="text" name="bd" placeholder="Введите дату рождения">
+                    </div>
+                    <div class = "inp">
+                    <input type="text" name="time" placeholder="Введите ~ время финиша" required>
+                    </div>
+                      <div class = "inp">
+                    <input type="text" name="distance" placeholder="Введите ~ дистанцию" required>
+                    </div>
+                    <div class = "input__button">
+                        <input type="submit" value="Получить номер участника" required>
+                    </div>
+                </div>
+            </form>
+                <div class="personal__data__image">
+                     <img src="{{ url_for("static", filename="photo.png") }}" alt="ops image">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

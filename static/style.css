@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header__container{
+
+   background-image: url("марафон.png");
+   height: 650px;
+
+
+}
+
+.header__content__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 205px;
+}
+.header__container__title{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 128px;
+    line-height: 159px;
+    color: #ffffff;
+}
+.header__container__subtitle{
+    font-family: 'Unbounded', cursive;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.header__container__button{
+    background: rgba(255, 255, 255, 0.79);
+    width: 281px;
+    height: 50px;
+    padding: 15px 34px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 38px;
+
+}
+.btn-text{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2E2B2A;
+
+}
+.marathon__info{
+    height: 523px;
+
+}
+.marathon__info__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 192px;
+
+}
+.marathon__line{
+    border: 2px solid #000000;
+
+}
+.marathon__info__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.map__section{
+    width: 1441px;
+    height: 715px;
+    background-image: url("mapback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map__container__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+
+}
+.map__container__info__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 119px;
+    color: #ffffff;
+}
+.map__container__info__subtitle{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.maps{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48.5px;
+}
+img{
+    width: 500px;
+    height: 353.62px;
+    border-radius: 36px;
+}
+.marathon__info__section{
+    height: 1336px;
+}
+.marathon__info__section__content{
+    width: 828px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 74px;
+}
+.marathon__info__ts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marathon__info__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 119px;
+}
+.marathon__info__subtitle{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+.marathon__reg__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 74px;
+}
+.marathon__reg__info__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+
+}
+.marathon__reg__info__subtitle{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+}
+.empty__section{
+    height: 20px;
+}
+.age__restriction__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 111px;
+}
+.age__restriction__info__title{
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+}
+.age__restriction__info__subtitle{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 29px;
+}
+.med__req__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 111px;
+    text-align: center;
+    padding-bottom: 112px;
+}
+.med__req__info__title{
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+}
+.med__req__info__subtitle{
+    margin-top: 27px;
+
+}
+ul{
+
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+li{
+    padding-top: 30px;
+}
